@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "kasra1";
+  src: url("../fonts/fontfa.ttf") format("truetype");
+}
+@font-face {
+  font-family: "kasra";
+  src: url("../fonts/nas.ttf") format("truetype");
+}
+
+body {
+  font-family: "kasra1";
+}
+
+.header {
+  height: 550px;
+  background-image: url("../img/bg-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: aliceblue;
+  padding-top: 35px;
+  background-blend-mode: darken;
+  background-color: gray;
+  text-align: center;
+}
+.nav-list {
+  list-style-type: none;
+  text-align: center;
+}
+.nav-item {
+  display: inline-block;
+  padding: 15px;
+}
+.nav-item:hover {
+  color: orange;
+}
+.title {
+  font-size: 60px;
+  font-family: "kasra";
+  margin-top: 90px;
+}
+.title span {
+  color: orange;
+}
+.desc {
+  width: 450px;
+  margin: auto;
+  height: 55px;
+  background-color: rgba(0, 0, 0, 0.5);
+  line-height: 55px;
+  margin-top: 30px;
+  border-radius: 20px;
+  border: 1px solid #fff;
+}
+.members {
+  text-align: center;
+  padding: 50px 30px;
+}
+.members-list {
+  list-style-type: none;
+  margin-top: 25px;
+}
+.members-item {
+  width: 350px;
+  display: inline-block;
+  margin: 10px;
+  box-shadow: 0 0 15px #bbbbbb;
+}
+.members-pic {
+  width: 100%;
+  height: 300px;
+}
+.members-bio {
+  padding: 20px;
+  text-align: justify;
+}
+.members-name {
+  font-family: "kasra";
+  font-size: 25px;
+  margin-top: 5px;
+}
+.about{
+  height: 700px;
+  background-image: url("../img/bg-about.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(90, 87, 87);
+  background-blend-mode: multiply;
+}
+.circle { 
+  width: 500px; 
+  height: 500px; 
+  background-color: rgba(255, 255, 255, 0.5); 
+  border-radius: 50%; 
+  margin: auto;
+  padding-top: 80px;
+  margin-top: 150px;
+  text-align: center;
+  margin-top: 30px;
+  
+}
+.circle h2 {
+  font-family: "kasra";
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.circle p {
+  width: 400px;
+  margin: auto;
+  text-align: justify;
+}
