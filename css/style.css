@@ -118,3 +118,52 @@ body {
   margin: auto;
   text-align: justify;
 }
+.footer{
+  padding: 5px;
+  background-color: black;
+}
+.footerbox{
+  text-align: center;
+  align-items: center;
+}
+.footerbox h2{
+  color: white;
+}
+.footerbox p{
+  margin-top: 5px;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.763);
+}
+.form{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+.input1{
+  width: 20rem;
+  height: 22px;
+  padding: 13px;
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+}
+.input1::placeholder{
+  color: white;
+}
+.btn1{
+  cursor: pointer;
+  padding: 6px 30px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border: none;
+  transition: 0.3s ease;
+}
+
+.btn1:hover{
+  color: white;
+  background-color: rgb(55, 55, 55);
+}
